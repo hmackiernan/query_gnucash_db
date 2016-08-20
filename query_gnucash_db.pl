@@ -1,3 +1,11 @@
+# assumes a local MySQL db named 'gnucash_db'
+# created by the 'gnucash2mysl' script (xaprb/gnucash2mysql)
+
+
+# TODO:
+# Given an increment, run the query for each interval within the start and end range
+# and give a total for that interval.  Use Date::Manip?
+
 use DBI;
 use DBD::mysql;
 use Data::Dumper;
